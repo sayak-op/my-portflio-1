@@ -666,3 +666,148 @@ footer{
     display: flex;
     gap:1rem;
 }
+
+/* Media query for screens up to 6.3 inches */
+@media (max-width: 6.3in) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20px;
+    }
+
+    .logo-text {
+        margin-left: 0;
+        margin-top: 0.5rem;
+        font-size: 24px;
+    }
+
+    .nav-items {
+        display: flex;
+        gap: 1rem;
+        padding: 0;
+        margin-top: 20px;
+        
+    }
+
+    .nav-items div {
+        font-size: 18px;
+    }
+
+    .hero-section{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .hero-section-right{
+        max-width: 350px;
+        margin-left: 20px;
+    }
+    .user-image{
+        padding: 20px;
+    }
+    .hero-section-heaidng{
+        max-width: 400px;
+    }
+    .hero-section-discription{
+        max-width: 400px;
+    }
+    .faded-text{
+        font-size: 50px;
+        margin-bottom: 70px;
+        margin-left: 60px;
+    }
+
+    /*project section*/
+    .project-section .page-header{
+        font-size: 50px;
+    }
+    .project-container{
+        max-width: 400px;
+        
+    }
+    .project-number{
+        font-size: 100px;
+        margin-right: 20px;
+    }
+    .project-number-left{
+        margin-left: 20px;
+    }
+    #project1{
+        margin-left: 17px;
+    }
+    #project2{
+        margin-left: 17px;
+    }
+    #project3{
+        margin-left: 17px;
+    }
+    #project4{
+        margin-left: 17px;
+    }
+
+    .skills-container{
+        display: flex;
+        flex-direction: column;
+        gap: 90px;
+        margin-left: -70px;
+    }
+    .caps{
+        font-size: 60px;
+    }
+    .skill-heading{
+        max-width: 400px;
+        font-size: 30px;
+    }
+    .skill-subheading{
+        max-width: 350px;
+    }
+    .skill-container-right{
+        margin-left: -10px;
+    }
+    .blob-style{
+        padding-right: 60px;
+    }
+
+    .contactus-heading {
+        font-size: 3em; /* Adjust font size for smaller screens */
+        padding-top: 1rem; /* Adjust padding for smaller screens */
+        margin-left: 10px;
+    }
+
+    .contactus-sub-heading {
+        font-size: 30px; /* Adjust font size for smaller screens */
+        max-width: 400px;
+        margin-left: 10px;
+    }
+
+    .form {
+        width: 70%; /* Adjust width for smaller screens */
+        margin: 2rem 2rem; /* Adjust margin for smaller screens */
+    }
+
+    .formfeild {
+        height: 36px; /* Adjust height for smaller screens */
+        font-size: 16px; /* Adjust font size for smaller screens */
+        margin-top: 20px; /* Adjust margin for smaller screens */
+    }
+    footer {
+        padding: 2rem;
+    }
+
+    .footer-wrapper {
+        padding: 2rem;
+    }
+
+    .footer-faded-text {
+        font-size: 2em;
+        margin-left: 70px;
+    }
+
+    .link-wrapper {
+        gap: 1rem;
+    }
+
+    .icon-wrapper {
+        gap: 0.5rem;
+    }
+}
