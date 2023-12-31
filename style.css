@@ -706,10 +706,10 @@ footer{
         padding: 10px;
     }
     .hero-section-heaidng{
-        max-width: 400px;
+        max-width: 350px;
     }
     .hero-section-discription{
-        max-width: 400px;
+        max-width: 350px;
     }
     .faded-text{
         font-size: 50px;
@@ -722,7 +722,7 @@ footer{
         font-size: 50px;
     }
     .project-container{
-        max-width: 400px;
+        max-width: 350px;
         
     }
     .project-number{
@@ -755,7 +755,7 @@ footer{
         font-size: 60px;
     }
     .skill-heading{
-        max-width: 400px;
+        max-width: 350px;
         font-size: 30px;
     }
     .skill-subheading{
@@ -776,7 +776,7 @@ footer{
 
     .contactus-sub-heading {
         font-size: 30px; /* Adjust font size for smaller screens */
-        max-width: 400px;
+        max-width: 350px;
         margin-left: 10px;
     }
 
